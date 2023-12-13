@@ -1,0 +1,26 @@
+P = Potencia de entrada (W) :
+Metodo usado: raiz(3) * V * I * cos(phi) 
+2031.7648793105957 
+Ps = Potencia de salida (HP):
+Metodo usado: f.p.s * Pe 
+1491.3154214139774 
+Pp = Potencia perdida (W):
+Metodo usado: Pe - Ps 
+540.4494578966182 
+Psal = Potencia permisible (W):
+Metodo usado: r(rad/s) * f.s 
+1715.012734626074 
+Tn = Torque nominal (Nm):
+Metodo usado: Ps * r/s 
+4.176250223352625 
+Ia = Corriente de arranque:
+Metodo usado: 6.3 * I 
+19.53 
+ Q = Potencia reactiva:
+Metodo usado: raiz(3) * V * I * sen(angphi) 
+1153.9334008712488 
+Recomendaciones para contactores 
+Recomendaciones para reles termicos (Los reles termicos se disparan cuando el pico de corriente supera 7.2 veces su corriente nominal 
+Si los picos de sobrecarga de corriente son de 4 a 10 segundos, se recomiendo usar un rele clase 10 
+Si los picos de sobrecarga de corriente son de 2 a 10 segundos, se recomiendo usar un rele clase 10-A 
+Si los picos de sobrecarga de corriente son de 6 a 20 segundos, se recomiendo usar un rele clase 20 
